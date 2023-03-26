@@ -492,9 +492,11 @@ body {
       /* display: flex; */
       visibility: visible;
 }
-.produst-list-link{
+
+.produst-list-link {
       height: 420px;
 }
+
 .products-item-btn:hover {
       background-color: #ccc;
       color: #000;
@@ -606,12 +608,77 @@ body {
       font-size: 16px;
       line-height: 19px;
       color: #F26376;
-      background-color: #E5E5E5;
+      background-color: #fff;
       border: 1px solid #FF6A6A;
       margin: 48px auto 0 auto;
       display: block;
 }
 
+.products-show-all-btn:hover {
+      color: #fff;
+      background-color: #F26376;
+      border: 1px solid #FF6A6A;
+}
+
+/*----------- FEATURES----------*/
+.features {
+      background-color: #222224;
+      padding: 103px 0 104px 0;
+}
+
+.features-list {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+}
+
+.features-list-item {
+      color: #FBFBFB;
+      font-style: normal;
+      max-width: 360px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+}
+
+.features-item-photo {
+      height: 47px;
+      width: 40px;
+      box-sizing: border-box;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0 0 28px 0;
+}
+
+.features-list>li:nth-child(1)>article>div {
+      background-image: url('../img/ftr-photo1.svg');
+}
+
+.features-list>li:nth-child(2)>article>div {
+      background-image: url('../img/ftr-photo2.svg');
+}
+
+.features-list>li:nth-child(3)>article>div {
+      background-image: url('../img/ftr-photo3.svg');
+}
+
+.features-item-tittle {
+      margin: 0 0 16px 0;
+      font-weight: 400;
+      font-size: 19.96px;
+      line-height: 24px;
+}
+
+.features-item-text {
+      font-weight: 300;
+      font-size: 13.972px;
+      line-height: 17px;
+}
+/*----------- FEATURES-END------*/
+/* -------SUBSCRIBE------- */
+/* -------SUBSCRIBE-END--- */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
       .promo-content-image {
             height: 368px;
